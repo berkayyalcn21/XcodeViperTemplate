@@ -1,4 +1,4 @@
-# XcodeViperTemplate
+# Xcode Viper Template
 
 ## Custom Templates Directory
 ~/Library/Developer/Xcode/Templates
