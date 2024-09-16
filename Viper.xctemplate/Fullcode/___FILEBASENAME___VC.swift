@@ -11,7 +11,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: BaseVC, ___VARIABLE_productName:iden
     }
     
     override func setUI() {
-        
+        super.setUI()
     }
 }
 

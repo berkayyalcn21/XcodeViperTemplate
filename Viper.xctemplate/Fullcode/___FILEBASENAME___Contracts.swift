@@ -1,5 +1,7 @@
 //___FILEHEADER___
 
+import Foundation
+
 // MARK: - Presenter
 protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
     
@@ -32,6 +34,6 @@ enum ___VARIABLE_productName:identifier___Routes: Equatable {
 }
 
 // MARK: - View
-protocol ___VARIABLE_productName:identifier___ViewProtocol: AnyObject {
+protocol ___VARIABLE_productName:identifier___ViewProtocol: KNBaseView {
     func handle(_ output: ___VARIABLE_productName:identifier___PresenterOutputs)
 }
