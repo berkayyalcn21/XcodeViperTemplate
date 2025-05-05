@@ -21,7 +21,7 @@ protocol ___VARIABLE_productName:identifier___InteractorDelegate: AnyObject {
 }
 
 enum ___VARIABLE_productName:identifier___InteractorOutputs: Equatable {
-    case sendError(String)
+    case setError(String)
 }
 
 // MARK: - Router

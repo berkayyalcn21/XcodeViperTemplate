@@ -30,16 +30,19 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Type:</string>
+			<string>UI Type:</string>
 			<key>Description</key>
-			<string>The type of Module to use</string>
+			<string>The type of UI to use</string>
 			<key>Type</key>
 			<string>popup</string>
 			<key>Default</key>
-			<string>Fullcode</string>
+			<string>Programmatic</string>
 			<key>Values</key>
 			<array>
-				<string>Fullcode</string>
+					<string>Programmatic</string>
+					<string>Storyboard</string>
+					<string>XIB</string>
+					<string>SwiftUI</string>
 			</array>
 		</dict>
 	</array>
