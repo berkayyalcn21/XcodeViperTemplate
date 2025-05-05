@@ -12,3 +12,9 @@
 
 ## Xcode Default Templates Directory
 /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates
+
+## Template Contains Some Types of UI
+- Programatic
+- Storyboard
+- XIB
+- SwiftUI
