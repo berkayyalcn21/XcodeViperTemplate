@@ -11,7 +11,12 @@ struct ___FILEBASENAMEASIDENTIFIER___: View {
     }
 
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("Hello, World!")
+        }
+        .setScreenViewNameType(screenViewNameType: .none)
+        .showKNAlert(type: $presenter.displayAlertType)
+        .showSpinner(isShowLoading: $presenter.showSpinner)
     }
 }
 
